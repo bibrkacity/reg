@@ -1,0 +1,22 @@
+div#form{
+    width:500px;
+    height:500px;
+    margin:50px auto;
+}
+
+
+div#form > form > div {
+    display:table;
+}
+
+div#form > form > div > div {
+    display:table-row;
+}
+
+div#form > form > div > div > div {
+    display:table-cell;
+}
+
+div#form > form * input[type="submit"]{
+font-size:15pt;
+}
